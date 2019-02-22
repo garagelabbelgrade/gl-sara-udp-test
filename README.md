@@ -26,7 +26,8 @@ UDP echo example - UDP read/write.
 
 ```c++
 String SERVER_IP_ADDRESS = "XXX.XXX.XXX.XXX";
-String SERVER_PORT = "2222";```
+String SERVER_PORT = "2222";
+```
 
 -  Connect to serial/debug console.  Controller  will print out welcome message. Example:
 
