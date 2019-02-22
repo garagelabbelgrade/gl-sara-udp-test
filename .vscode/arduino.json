@@ -1,0 +1,5 @@
+{
+    "port": "COM6",
+    "board": "SODAQ:samd:sodaq_sara",
+    "sketch": "gl-sara-udp-test.ino"
+}
