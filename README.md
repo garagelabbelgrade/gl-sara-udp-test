@@ -105,7 +105,7 @@ AT+CSQ | Checks for base signal. will be ~30 if ok. 99 - no signal.
 AT+CGATT? | Checks if connected. Will return 1 if connected and ready.
 AT+CCLK? | Queries for current UTC time broadcasted by carrier
 AT+USOCR=17 | Opens new `UDP` socket. Will return socket identifier (0 - 6)
-AT+USOST=0,"45.76.90.233",6000,4,"asdf" | Sends UDP message to server.  parts: <br>>0 - socket identifier (socket created in previous step) <br> > server &apos;s ip address  <br> > server&apos;s port <br> > length of our UDP message <br> > data (message)
+AT+USOST=0,"46.101.183.211",2222,4,"asdf" | Sends UDP message to server.  parts: <br>>0 - socket identifier (socket created in previous step) <br> > server &apos;s ip address  <br> > server&apos;s port <br> > length of our UDP message <br> > data (message)
 
 
 
